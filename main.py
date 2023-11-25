@@ -1,5 +1,4 @@
 import datetime
-import pandas
 
 print("Repo lohkokoe3: Ensimmainen lisatty file: main.py")
 aika = datetime.datetime.now()
@@ -9,5 +8,8 @@ print(f"Nyt on {aika}")
 # Toimisiko ehka Aaron devieditorina koulussa?
 
 # Lisataan pandas ja kokeillaan samalla codespacesia
-print(f"Lisätään codespacen kokeilu")
+print(f"Lisataan codespacen kokeilu")
 
+# Github Desktopin kautta pull ja siitä editointi VS Codessa
+# Poistetaan aakkoset
+print("Aakkoset poistettu ja koitetaan Github Desktopista Commitia ja Pushia lokaalista hubiin")
