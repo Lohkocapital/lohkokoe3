@@ -2,8 +2,8 @@
 
 # Variables required for notification via Discord
 # MESSAGE="Houston! We have a problem!"
-BOT_TOKEN="MTI3NjI4MjgwNzExNDUzMDg1OQ.GzIGOO.e_hl8_0KdfWaOEbK5hAyY9DYFlS6p8iM_xwjrc"
-CHANNEL_ID="1276285269326430329"
+BOT_TOKEN="YOUR_BOT_TOKEN_HERE"
+CHANNEL_ID="YOUR_CHANNEL_ID_HERE"
 
 # Define the servers and ports
 declare -A SERVERS
