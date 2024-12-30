@@ -9,15 +9,15 @@ CHANNEL_ID="YOUR_CHANNEL_ID_HERE"
 declare -A SERVERS
 SERVERS=(
     ["teslate|userid:password"]="https://teslamate.teslate.cloud/grafana/login"
-    ["superset"]="http://salminen.io:8088/login/"
+    ["superset"]="http://yoururl.com:8088/login/"
 #    ["teslamate-legacy"]="http://salminen.io:4000"
 #    ["teslamate-grafana-legacy"]="http://salminen.io:3000/login"
-    ["homeassistant"]="http://salminen.io:8123"
+    ["homeassistant"]="http://yoururl.com:8123"
 )
 
 # Define log file location
 LOG_FILE="/home/sami/monitor/service_monitor.log"
-EMAIL_RECIPIENT="sami@nanops.cloud"
+EMAIL_RECIPIENT="bofh@example.com"
 
 # Function to check service availability
 check_service() {
