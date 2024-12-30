@@ -8,7 +8,7 @@ CHANNEL_ID="YOUR_CHANNEL_ID_HERE"
 # Define the servers and ports
 declare -A SERVERS
 SERVERS=(
-    ["teslate|sami@nanops.cloud:password"]="https://teslamate.teslate.cloud/grafana/login"
+    ["teslate|userid:password"]="https://teslamate.teslate.cloud/grafana/login"
     ["superset"]="http://salminen.io:8088/login/"
 #    ["teslamate-legacy"]="http://salminen.io:4000"
 #    ["teslamate-grafana-legacy"]="http://salminen.io:3000/login"
